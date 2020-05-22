@@ -13,9 +13,6 @@ modul:
   # Beschreibung des Moduls - Angezeigt in der Modulliste (string|array)
   beschreibung: Ein Prototyp für Module
 
-  # Interne Kennung des Moduls - Anbieter/Namespace/... (string)
-  namespace: DSH/Prototyp
-
   # Modul ist im Lehrernetz (bool)
   lehrernetz: false
 
@@ -40,6 +37,10 @@ modul:
   # Seiten für das Modul (string)
   # Standard: seiten/seiten.php
   seiten: seiten/seiten.php
+
+  # Priorirät des Moduls in der Seitenliste (int) - Aus Performancegründen, da die Daten oben->unten geprüft werden
+  # Standard: 0
+  seitenPrio: 0
 
   # Speicherort für Dateien des Moduls (string)
   # Standard: dateien/%NAMESPACE%
