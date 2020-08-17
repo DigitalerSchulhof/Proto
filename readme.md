@@ -3,6 +3,11 @@
 git submodule add git@github.com:DigitalerSchulhof/MODULNAME.git module/MODULNAME
 git submodule update --init module/MODULNAME
 ```
+oder
+```
+git submodule add https://github.com/DigitalerSchulhof/MODULNAME.git module/MODULNAME
+git submodule update --init module/MODULNAME
+```
 
 ### Konfiguration
 ```
