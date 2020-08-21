@@ -1,6 +1,6 @@
 proto:
   funktion:
-    knoten: Eine Sache
+    _: Knotenpunkt
     sehen: Sache sehen
     ändern: Sache ändern
     löschen: Sache löschen
